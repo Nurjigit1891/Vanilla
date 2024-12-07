@@ -1,0 +1,84 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About Us",
+        "menu": "Menu",
+        "contact": "Contact",
+        "book": "Book a Table"
+    },
+    "main1": {
+        "title": "The best food for your taste",
+        "description": "Discover exquisite cuisine and <br /> unforgettable moments in our welcoming culinary oasis",
+        "btn1": "Explore Menu",
+        "btn2": "Reserve a Table"
+    },
+    "mainMenu": {
+        "title": "Explore Our Menu",
+        "card1": {
+            "title": "Breakfast",
+            "description": "Start your day with a delicious and nutritious  breakfast that energizes you for the whole day",
+            "btn": "View Menu"
+        },
+        "card2": {
+            "title": "Main Dishes",
+            "description": "Enjoy exquisite main dishes prepared with love and attention to detail",
+            "btn": "View Menu"
+        },
+        "card3": {
+            "title": "Drinks",
+            "description": "Refresh yourself with our beverages – from coffee to cocktails for every moment",
+            "btn": "View Menu"
+        },
+        "card4": {
+            "title": "Desserts",
+            "description": "Indulge in our desserts that bring sweet and unforgettable moments",
+            "btn": "View Menu"
+        }
+    },
+    "main2": {
+        "title": "We provide healthy food for your family.",
+        "description1": "Our story began with a vision to create a unique dining experience that merges fine dining, exceptional service, and a vibrant ambiance. Rooted in city's rich culinary culture, we aim to honor our local roots while infusing a global palate.",
+        "description2": "At place, we believe that dining is not just about food, but also about the overall experience. Our staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.",
+        "button": "More About Us",
+        "dynamicTitle" : "Come and visit us"
+    },
+    "main3": {
+    "title": "We also offer unique services for your events",
+    "card1": {
+        "title": "Caterings",
+        "description": "Let us take care of your special event with our professional catering services, designed to meet all your needs."
+    },
+    "card2": {
+        "title": "Birthdays",
+        "description": "Celebrate your birthday with us and make it a memorable day with delicious food and cozy atmosphere."
+    },
+    "card3": {
+        "title": "Romantic Dinners",
+        "description": "Enjoy an intimate evening with your loved one in a cozy and romantic atmosphere."
+    },
+    "card4": {
+        "title": "Events",
+        "description": "We offer exceptional service and great food to make your event unforgettable."
+    }
+    },
+    "footer": {
+    "brand": "Vanilla Sky",
+    "slogan": "Experience the taste of true culinary masterpieces in our coffee shop with premium coffee.",
+    "pages": {
+        "title": "Pages",
+        "home": "Home",
+        "about": "About Us",
+        "menu": "Menu",
+        "contact": "Contact",
+        "book": "Book a Table"
+    },
+    "instagramTitle": "Follow us on Instagram"
+    }
+
+
+
+
+
+
+
+}

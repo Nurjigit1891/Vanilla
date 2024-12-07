@@ -1,0 +1,38 @@
+.languageSelect {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 16px;
+    width: 120px; // Ширина компонента
+    height: 40px;
+  
+    .MuiSelect-icon {
+      color: #000;
+    }
+  }
+  
+  .languageMenuItem {
+    display: flex;
+    justify-content: center; // Центрирование контента
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .menuItemContent {
+    display: flex;
+    justify-content: center; // Центрирование всего содержимого
+    align-items: center;
+    gap: 10px; // Расстояние между флагом и текстом
+  }
+  
+  .flagIcon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .menuText {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

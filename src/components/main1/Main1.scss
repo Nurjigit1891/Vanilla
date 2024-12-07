@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+
+.main1 {
+    background-image: url('../../assets/back.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover; /* Растягиваем фон */
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+
+    .main1_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .mainText {
+            p {
+                text-align: center;
+                font-family: "Dancing Script", cursive;
+                font-size: 60px;
+            }
+        }
+
+        .describeText {
+            margin-top: 20px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .buttons {
+            margin-top: 50px;
+            display: flex;
+            gap: 20px;
+
+            .menuBtn {
+                font-family: "Montserrat", sans-serif;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 1px solid black;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #d9dfd4;
+                    cursor: pointer;
+                }
+            }
+
+            .bookBtn {
+                font-family: "Montserrat", sans-serif;
+                background-color: #e55252;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 1px solid #e55252;
+                color: white;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: white;
+                    border: 1px solid #e55252;
+                    color: #e55252;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 450px) {
+    .main1 {
+        background-position: calc(79% - 60px) center; /* Сдвиг влево только на мобильных */
+        .main1_content {
+
+            .mainText {
+                margin-top: 150px;
+                p {
+                    font-size: 40px; /* Уменьшаем шрифт для мобильных */
+                }
+            }
+
+            .describeText {
+                margin-top: 15px;
+                text-align: center; /* Центрируем текст */
+                font-size: 14px; /* Уменьшаем размер текста */
+            }
+
+            .buttons {
+                flex-direction: column; /* Кнопки в столбик */
+                align-items: center;
+
+                .menuBtn, .bookBtn {
+                    width: 100%; /* Кнопки занимают всю ширину */
+                    margin: 10px 0; /* Отступ между кнопками */
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.mainMenu {
+    margin-top: 80px;
+    .container {
+        .mainMenu_content {
+            h2 {
+                text-align: center;
+                font-family: "Montserrat", sans-serif;
+                font-size: 35px;
+            }
+
+            .cards {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 64px;
+
+
+                .card {
+                    border: 1px solid #474747;
+                    border-radius: 20px;
+                    padding: 10px 20px;
+                    transition: all 0.3s ease-in-out;
+                    padding-top: 40px;
+                    width: 250px;
+                    position: relative;
+                    
+
+                    .cardIcon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .cardIcon_icon {
+                            font-size: 70px;
+                            background-color: #c6c6c6  ;
+                            color: #474747;
+                            padding: 20px;
+                            border-radius: 50%;
+                        }
+                    }
+
+
+
+                    .cardTitle {
+                        h4 {
+                            margin-top: 20px;
+                            text-align: center;
+                            font-family: "Montserrat", sans-serif;
+                        }
+                    }
+
+                    .cardDescription {
+                        margin-top: 20px;
+                        text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 16px;
+                    }
+
+                    .cardBtn {
+                        margin-top: 20px;
+                        text-align: center;
+                        font-family: "Montserrat", sans-serif;
+                        padding: 10px 20px;
+                        color: rgb(255, 153, 153);
+                        cursor: pointer;
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            color: rgb(255, 0, 0);
+                        }
+
+                    }
+                }
+            }
+
+            
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .mainMenu {
+        .container{
+            .mainMenu_content {
+                .cards {
+                    flex-direction: column;
+                    align-items: center;
+
+                    .card {
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

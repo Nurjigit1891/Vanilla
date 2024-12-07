@@ -1,0 +1,97 @@
+.navbar {
+    margin-top: 20px;
+
+    .navbar_content {
+        display: flex;
+        justify-content: space-between;
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            img {
+                width: 50px;
+            }
+    
+            p {
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-weight: 800;
+                font-style: normal;        
+                font-size: 35px;
+            }
+        }
+    
+        .navs {
+            .navbar a {
+                padding: 10px 15px;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                font-family: "Montserrat", sans-serif;
+
+            }
+            
+            .navbar a.active {
+                background-color: #d9dfd4; /* Цвет подсветки */
+                border-radius: 20px;
+                font-weight: bold;
+            }
+            
+            .navbar a.inactive {
+                color: black;
+            }
+            
+        }
+    
+        .book {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                font-family: "Montserrat", sans-serif;
+                border: 1px solid black;
+                border-radius: 20px;
+                padding: 10px 20px;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: #d9dfd4;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        .navbar_content{ 
+            display: flex;
+            flex-direction: column;   
+            position: relative;     
+
+
+        }
+
+        .book {
+            margin-top: 20px;
+        }
+
+
+
+    .navs {
+        display: none; /* Скрыть стандартное меню на мобильных */
+      }
+    
+      .burger-menu {
+        display: block; /* Показать бургер-меню на мобильных */
+        position: absolute;
+        top: 0;
+        left: 0;
+
+      }
+}
+
+  
+}

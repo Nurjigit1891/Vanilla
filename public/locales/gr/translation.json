@@ -1,0 +1,80 @@
+{
+    "navbar": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "menu": "Speisekarte",
+        "contact": "Kontakt",
+        "book": "Tisch reservieren"
+    },
+    "main1": {
+        "title": "Das beste Essen für Ihren Geschmack",
+        "description": "Entdecken Sie exquisite Küche und<br /> unvergessliche Momente in unserer einladenden kulinarischen Oase",
+        "btn1": "Speisekarte ansehen",
+        "btn2": "Tisch reservieren"
+    },
+    "mainMenu": {
+        "title": "Entdecken Sie unser Menü",
+        "card1": {
+            "title": "Frühstück",
+            "description": "Beginnen Sie Ihren Tag mit einem köstlichen und nahrhaften Frühstück, das Sie den ganzen Tag über mit Energie versorgt",
+            "btn": "Speisekarte ansehen"
+        },
+        "card2": {
+            "title": "Hauptgerichte",
+            "description": "Genießen Sie exquisite Hauptgerichte, die mit Liebe und Liebe zum Detail zubereitet werden",
+            "btn": "Speisekarte ansehen"
+        },
+        "card3": {
+            "title": "Getränke",
+            "description": "Erfrischen Sie sich mit unseren Getränken – von aromatischem Kaffee bis hin zu Cocktails für jeden Moment",
+            "btn": "Speisekarte ansehen"
+        },
+        "card4": {
+            "title": "Desserts",
+            "description": "Genießen Sie unsere Desserts, die süße und unvergessliche Momente bringen",
+            "btn": "Speisekarte ansehen"
+        }
+    },
+    "main2": {
+        "title": "Wir bieten gesunde Lebensmittel für Ihre Familie.",
+        "description1": "Unsere Geschichte begann mit der Vision, ein einzigartiges kulinarisches Erlebnis zu schaffen, das gehobene Küche, exzellenten Service und eine lebendige Atmosphäre vereint. Verwurzelt in der reichen kulinarischen Kultur der Stadt, wollen wir unsere lokalen Wurzeln ehren und gleichzeitig eine globale Vielfalt einbringen.",
+        "description2": "Wir glauben, dass Essen nicht nur Nahrung ist, sondern auch ein Gesamterlebnis. Unser Team, bekannt für seine Herzlichkeit und Hingabe, bemüht sich, jeden Besuch zu einem unvergesslichen Erlebnis zu machen.",
+        "button": "Mehr über uns",
+        "dynamicTitle": "Kommen Sie und besuchen Sie uns"
+    },
+    "main3": {
+    "title": "Wir bieten auch einzigartige Dienstleistungen für Ihre Veranstaltungen",
+    "card1": {
+        "title": "Catering",
+        "description": "Lassen Sie uns Ihr besonderes Event mit unseren professionellen Catering-Dienstleistungen perfekt gestalten."
+    },
+    "card2": {
+        "title": "Geburtstage",
+        "description": "Feiern Sie Ihren Geburtstag mit uns und machen Sie den Tag mit köstlichem Essen und gemütlicher Atmosphäre unvergesslich."
+    },
+    "card3": {
+        "title": "Romantische Abendessen",
+        "description": "Genießen Sie einen intimen Abend mit Ihrem Liebsten in einer gemütlichen und romantischen Atmosphäre."
+    },
+    "card4": {
+        "title": "Veranstaltungen",
+        "description": "Wir bieten außergewöhnlichen Service und großartiges Essen, um Ihre Veranstaltung unvergesslich zu machen."
+    }
+    },
+    "footer": {
+    "brand": "Vanilla Sky",
+    "slogan": "Erleben Sie den Geschmack wahrer kulinarischer Meisterwerke in unserem Café mit Premium-Kaffee.",
+    "pages": {
+        "title": "Seiten",
+        "home": "Startseite",
+        "about": "Über uns",
+        "menu": "Speisekarte",
+        "contact": "Kontakt",
+        "book": "Tisch reservieren"
+    },
+    "instagramTitle": "Folgen Sie uns auf Instagram"
+    }
+
+
+
+}

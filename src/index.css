@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 4px solid green ; */
+}
+
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

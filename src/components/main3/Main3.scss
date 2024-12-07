@@ -1,0 +1,57 @@
+.main3 {
+    padding-top: 80px;
+    .container {
+        .main3_content {
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                width: 800px;
+            }
+
+            .cards {
+                padding-top: 40px;
+                display: flex;
+                justify-content: space-around;
+                gap: 20px; /* Расстояние между карточками */
+                flex-wrap: wrap;
+              
+                .card {
+                  width: 250px; /* Задаём фиксированную ширину карточки */
+                  font-family: "Nunito", sans-serif;
+
+                  img {
+                    width: 100%; /* Изображение занимает всю ширину карточки */
+                    height: 200px; /* Задаём фиксированную высоту */
+                    object-fit: cover; /* Картинка обрезается, чтобы заполнить контейнер */
+                    border-radius: 10px; /* Добавляем скругление углов */
+                  }
+              
+                  h4 {
+                    margin-top: 10px;
+                    font-size: 18px;
+                    font-weight: bold;
+
+                  }
+              
+                  p {
+                    margin-top: 5px;
+                    font-size: 14px;
+                    color: #555;
+                  }
+                }
+              }
+              
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .main3 {
+        .container {
+            .main3_content {
+                h1 {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
